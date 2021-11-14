@@ -13,6 +13,8 @@
 		BDD3F19627412D660056A86C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3F19527412D660056A86C /* Preview Assets.xcassets */; };
 		BDD3F1A127412D670056A86C /* SwiftUI_ExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F1A027412D670056A86C /* SwiftUI_ExperimentsTests.swift */; };
 		BDD3F1AC27412D670056A86C /* SwiftUI_ExperimentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F1AB27412D670056A86C /* SwiftUI_ExperimentsUITests.swift */; };
+		BDF225A42741496400C8A1C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF225A32741496400C8A1C4 /* Constants.swift */; };
+		BDF225A727414B0200C8A1C4 /* DefaultGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF225A627414B0200C8A1C4 /* DefaultGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BDD3F1A727412D670056A86C /* SwiftUI_ExperimentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_ExperimentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD3F1AB27412D670056A86C /* SwiftUI_ExperimentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsUITests.swift; sourceTree = "<group>"; };
 		BDD3F1AD27412D670056A86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF225A32741496400C8A1C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDF225A627414B0200C8A1C4 /* DefaultGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 			children = (
 				BDD3F18E27412D650056A86C /* SwiftUI_ExperimentsApp.swift */,
 				BDD3F19727412D660056A86C /* Info.plist */,
+				BDF225A32741496400C8A1C4 /* Constants.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -149,9 +154,18 @@
 		BDD3F1BB27412DA10056A86C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDF225A527414A8900C8A1C4 /* Grids */,
 				BDD3F19027412D650056A86C /* Home.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BDF225A527414A8900C8A1C4 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				BDF225A627414B0200C8A1C4 /* DefaultGrid.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +299,8 @@
 			files = (
 				BDD3F19127412D650056A86C /* Home.swift in Sources */,
 				BDD3F18F27412D650056A86C /* SwiftUI_ExperimentsApp.swift in Sources */,
+				BDF225A42741496400C8A1C4 /* Constants.swift in Sources */,
+				BDF225A727414B0200C8A1C4 /* DefaultGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
