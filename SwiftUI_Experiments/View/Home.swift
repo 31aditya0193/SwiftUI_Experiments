@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct Home: View {
+    var data = 0..<20
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(0..<data.count)  {idx in
+                Text("\(data[idx])")
+            }
+            .navigationTitle("Implementations")
+        }
+    }
+}
+
+struct Home_Previews: PreviewProvider {
+    static var previews: some View {
+        Home()
     }
 }
