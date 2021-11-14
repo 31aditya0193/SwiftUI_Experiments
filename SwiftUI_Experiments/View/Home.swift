@@ -11,9 +11,9 @@ struct Home: View {
     
     var body: some View {
         NavigationView {
-            List(0..<index.count)  {idx in
-                NavigationLink("\(index[idx])") {
-                    pages[idx]
+            List(0..<pages.count)  { idx in
+                NavigationLink(destination: pages[idx]) {
+                    Text(index[idx])
                 }
             }
             .navigationTitle("Implementations")
