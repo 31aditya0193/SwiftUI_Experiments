@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BDD3F18F27412D650056A86C /* SwiftUI_ExperimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F18E27412D650056A86C /* SwiftUI_ExperimentsApp.swift */; };
-		BDD3F19127412D650056A86C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F19027412D650056A86C /* ContentView.swift */; };
+		BDD3F19127412D650056A86C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F19027412D650056A86C /* Home.swift */; };
 		BDD3F19327412D660056A86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3F19227412D660056A86C /* Assets.xcassets */; };
 		BDD3F19627412D660056A86C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD3F19527412D660056A86C /* Preview Assets.xcassets */; };
 		BDD3F1A127412D670056A86C /* SwiftUI_ExperimentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD3F1A027412D670056A86C /* SwiftUI_ExperimentsTests.swift */; };
@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		BDD3F18B27412D650056A86C /* SwiftUI_Experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Experiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD3F18E27412D650056A86C /* SwiftUI_ExperimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ExperimentsApp.swift; sourceTree = "<group>"; };
-		BDD3F19027412D650056A86C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDD3F19027412D650056A86C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BDD3F19227412D660056A86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD3F19527412D660056A86C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDD3F19727412D660056A86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		BDD3F1BB27412DA10056A86C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BDD3F19027412D650056A86C /* ContentView.swift */,
+				BDD3F19027412D650056A86C /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD3F19127412D650056A86C /* ContentView.swift in Sources */,
+				BDD3F19127412D650056A86C /* Home.swift in Sources */,
 				BDD3F18F27412D650056A86C /* SwiftUI_ExperimentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
