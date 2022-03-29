@@ -31,9 +31,3 @@ struct GridCell: View {
         Text(label)
     }
 }
-
-struct DefaultGrid_Previews: PreviewProvider {
-    static var previews: some View {
-        DefaultGrid()
-    }
-}

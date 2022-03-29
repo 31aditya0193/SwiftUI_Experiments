@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 15, *)
 @main
 struct SwiftUI_ExperimentsApp: App {
     var body: some Scene {

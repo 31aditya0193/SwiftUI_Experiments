@@ -7,13 +7,17 @@
 
 import SwiftUI
 
+@available(iOS 15, *)
 struct Home: View {
     
     var body: some View {
         NavigationView {
-            List(0..<pages.count)  { idx in
-                NavigationLink(destination: pages[idx]) {
-                    Text(index[idx])
+            List {
+                NavigationLink(destination: DefaultGrid()) {
+                    Text("LazyVgrid")
+                }
+                NavigationLink(destination: CombineView()) {
+                    Text("Combine")
                 }
             }
             .navigationTitle("Implementations")
